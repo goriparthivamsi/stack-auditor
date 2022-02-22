@@ -182,7 +182,7 @@ func (cf *CF) GetAppInfo(appName string) (appGuid, appState, appStack string, er
 		return "", "", "", err
 	}
 
-	return app.GUID, app.State, app.Lifecycle.Data.Stack, nil
+	return app.GUID, app.State, app.Lifecycle.Data.Stack, app.Lifecycle.Data.Buildpack nil
 }
 
 func (cf *CF) CFCurl(args ...string) ([]string, error) {

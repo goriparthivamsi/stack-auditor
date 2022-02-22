@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/cloudfoundry/stack-auditor/auditor"
-	"github.com/cloudfoundry/stack-auditor/cf"
+	"github.com/goriparthivamsi/stack-auditor/cf"
 	"github.com/cloudfoundry/stack-auditor/changer"
 	"github.com/cloudfoundry/stack-auditor/deleter"
 	"github.com/cloudfoundry/stack-auditor/terminalUI"
